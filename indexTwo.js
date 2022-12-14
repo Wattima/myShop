@@ -1,8 +1,9 @@
 fetch("https://fakestoreapi.com/products")
 .then((resp) => resp.json())
 .then((data) => {
+    
 let http = new XMLHttpRequest();
-http.open('get', 'db.json', true);
+http.open('get', 'data', true);
 http.send();
 http.onload = function(){
    if(this.readyState == 4 && this.status == 200){
