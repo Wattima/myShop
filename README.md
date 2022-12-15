@@ -11,3 +11,15 @@ relevant products that match the request.
 * Then install the various packages from package.json `npm install`
 * Create environment variables
 * Use this api to source products <https://fakestoreapi.com/products>
+
+### Author:
+   * **Daryl Wattima** - *Initial work* - [Wattima](<https://github.com/Wattima>)
+
+### Status:
+    maintained, and is currently in development
+### Version:
+    v0.1.0
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Copyright (c) 2022 **Daryl Wattima**
