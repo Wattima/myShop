@@ -50,7 +50,7 @@ function addElement(appendIn, value){
                 <h1 class="text-lg title">${title}</h1>
                 <a href="#" class="block"><span class="text-sm text-red-400">${category}</span></a>
                 <span class="block py-3">$<span class="text-md">${price}</span></span>
-                <button class="border-2 px-8 py-1 bg-yellow-400 border rounded-md">Buy Now</button>
+                <button class="button-49" role="button">Button 49</button>
             </div>
     `;
     appendIn.appendChild(div);
