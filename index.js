@@ -40,7 +40,7 @@ function filterProducts(){
 // get value from the api create dynamic element
 function addElement(appendIn, value){
     let div = document.createElement('div');
-    div.className = "item justify-self-center";
+    div.className = "item";
 
     let { image, title, category, price } = value;
 
@@ -55,3 +55,8 @@ function addElement(appendIn, value){
     `;
     appendIn.appendChild(div);
 }
+
+document.querySelector("#button").click(function() {  
+    document.querySelector("#box form").toggle("slow");
+    return false;
+  });
