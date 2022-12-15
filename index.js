@@ -1,6 +1,15 @@
 
 let grid = document.querySelector(".products");
 let filterInput = document.getElementById("filterInput");
+let login = document.querySelector("button")
+
+// add event listener
+login.addEventListener('submit', refresh)
+
+function refresh(){
+    window.location.reload();
+    
+}
 
 fetch('https://fakestoreapi.com/products')
     .then(res => res.json())
